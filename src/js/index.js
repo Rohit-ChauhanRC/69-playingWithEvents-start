@@ -37,7 +37,7 @@ const stepRight = () => {
 };
 
 const stepUp = () => {
-  yPos < 450 && (yPos += -10);
+  yPos > 0 && (yPos += -10);
   setTransform();
 };
 
